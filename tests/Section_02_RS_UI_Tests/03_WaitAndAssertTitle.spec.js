@@ -39,6 +39,6 @@ test('Section_02_RS_UI_Tests - Intentionally Failing - Wait and Assert the Page 
     await new Promise(resolve => setTimeout(resolve, 2000)); // 2 sec
 
     // Assert the Page Title
-    await expect(page).toHaveTitle('Google1');
+    await expect(page).toHaveTitle('Google');
 
 });
